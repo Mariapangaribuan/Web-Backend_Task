@@ -1,0 +1,6 @@
+CREATE TABLE notes (
+    id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    title NVARCHAR(MAX) NOT NULL,
+    datetime DATETIME NOT NULL,
+    note NVARCHAR(MAX) NOT NULL
+);
